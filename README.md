@@ -1,16 +1,13 @@
-This repository contains the code C++ examples for the 
-DDS Tutorial and a Vortext OpenSplice V6.7 library. 
+1) Start by going to the bin directory, read the README.md
+   and modify the setup.env for the OpenSplice you wish to 
+   use
+   
+2) Source the `*-setup.env` you just changed and wish to use
 
-The examples included should compile and run with any DDS
-implementation that supports the new ISO C++ API.
+3) Compile your program with `cmake` then `make`
 
-To try the examples you need to have:
-
-  - OpenSplice DDS (http://opensplice.org | http://prismtech.com)
-  - g++ or clang with support for C+0x
-  - cmake 2.8 or higher
-
-To compile simply do:
-
-$ cmake .
-$ make
+4) Run your publisher and subscriber in separate terminals.
+   `./tssub`, `./tspub`
+   
+More on requirements here https://github.com/kydos/dds-tutorial-cpp
+The ch1, ch2, and ch3 programs were copied from this link.
