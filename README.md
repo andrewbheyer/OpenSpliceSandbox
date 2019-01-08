@@ -1,15 +1,8 @@
 This repository contains the code C++ examples for the 
-DDS Tutorial.
+DDS Tutorial and a Vortext OpenSplice V6.7 library. 
 
 The examples included should compile and run with any DDS
 implementation that supports the new ISO C++ API.
-
-To make to code more compact and clear I take deliberately
-advantage of some of the features introduced by C++11. 
-Considered the widely spread availability of C++11 compilers
-this should not pose a problem.
-
-That said I've only tested with OpenSplice DDS.
 
 To try the examples you need to have:
 
@@ -21,8 +14,3 @@ To compile simply do:
 
 $ cmake .
 $ make
-
-That's it.
-
--Happy Hacking
-
