@@ -4,6 +4,6 @@ Makefile
 cmake_install.cmake
 gen/
 libdatamodel.so
-ospl*
+ospl-*
 tspub
 tssub
